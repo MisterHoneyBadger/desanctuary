@@ -64,7 +64,7 @@
 
 	#header-wrapper {
 		overflow: hidden;
-		height: 600px;
+		height: 500px;
 		background: repeat-x left top;
 	}
 
@@ -80,7 +80,7 @@
 
 	#banner {
 		overflow: hidden;
-		height: 400px;
+		height: 300px;
 		background: no-repeat center bottom;
 	}
 
@@ -538,28 +538,43 @@ Released   : 20120817
 			</div>
 		</div>
 		<div id ="wrapper">
-			<%= yield %>
-		</div>
-		<div id="sidebar">
-			<div>
-				<h2>We offer:</h2>
-				<ul class="list-style1">
-					<li class="first">
-						<a href="/massage_treatment">Massage treatment</a>
-					</li>
-					<li>
-						<a href="/facial">Facial treatment</a>
-					</li>
-					<li>
-						<a href="/body">Body treatment</a>
-					</li>
-				</ul>
+			<div id="splash" class="container">
+				<span>De Sanctary Malaysia</span>
+			</div>
+			<div id="page" class="container">
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="#">Welcome to De Sanctuary </a></h2>
+						<div class="entry">
+							<%= yield %>
+						</div>
+					</div>
+					<div style="clear: both;">
+						&nbsp;
+					</div>
+				</div>
+			</div>
+			<div id="sidebar">
+				<div>
+					<h2>We offer:</h2>
+					<ul class="list-style1">
+						<li class="first">
+							<a href="/massage_treatment">Massage treatment</a>
+						</li>
+						<li>
+							<a href="/facial">Facial treatment</a>
+						</li>
+						<li>
+							<a href="/body">Body treatment</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<div style="clear: both;">
 			&nbsp;
 		</div>
-
+		</div>
 		<div id="footer">
 			<p>
 				© 2012 Untitled Inc. All rights reserved. Lorem ipsum dolor sit amet nullam blandit consequat phasellus etiam lorem. Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.  Photos by <a href="http://fotogrph.com/">Fotogrph</a>.

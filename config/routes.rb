@@ -5,4 +5,5 @@ Staticspages::Application.routes.draw do
  get "/massage_treatment", to: "static#massage_treatment"
  get "/facial", to: "static#facial"
  get "/body", to: "static#body"
+ get "/_body", to: "static#_body"
 end
